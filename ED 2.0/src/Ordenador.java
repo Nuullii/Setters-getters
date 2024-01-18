@@ -1,12 +1,12 @@
 public class Ordenador {
     private String CPU;
     private String GPU;
-    private int RAM;
+    private int ROM;
 
-    public Ordenador(String valorCPU, String valorGPU, int valorRAM) {
+    public Ordenador(String valorCPU, String valorGPU, int valorROM) {
         CPU = valorCPU;
         GPU =valorGPU;
-        RAM =valorRAM;
+        ROM =valorROM;
     }
     public Ordenador(){
 
@@ -14,8 +14,8 @@ public class Ordenador {
     public String CPU(){
         return CPU();
     }
-    public int RAM(){
-        return RAM();
+    public int ROM(){
+        return ROM();
     }
 }
 
