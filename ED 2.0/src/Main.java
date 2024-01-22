@@ -1,13 +1,14 @@
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+import prueba.Persona;
 
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
 
-        Ordenador pc= new Ordenador("i4", "GTX", 128);
-
-        Ordenador pc1 =new Ordenador();
-        System.out.println(pc.getClass());
+        Persona persona1 = new Persona("Richard", 19, "12345678B");
+        Persona persona2 = new Persona();
+        persona2.setNombre("niki");
+        System.out.println(persona1.getNombre());
 
     }
-
 }
